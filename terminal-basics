@@ -1,0 +1,43 @@
+Everything on the system — files, folders, programs, settings — lives somewhere inside that tree.
+
+/
+├── etc/        system settings and config files
+├── bin/        essential built-in programs
+├── home/       personal folders for each user
+│   └── kali/   your home folder
+├── root/       home folder for the root (admin) user
+├── var/        logs and data that changes constantly
+├── tmp/        temporary files, wiped on every reboot
+└── usr/        installed software and applications
+
+If you're coming from Windows: Windows uses C:\Users\YourName\ as your home. Linux uses /home/yourname/. Same idea, different syntax.
+
+commands: 
+
+1. pwd
+: Stands for "Print Working Directory." Tells you exactly where you are in the filesystem right now.
+
+2.  ls	Basic list
+    ls -l	Detailed list with permissions, size, and date
+    ls -a	Shows hidden files too
+    ls -la	Detailed list including hidden files
+
+3. man ls :
+lsits every option available (manual list)
+
+4. localte: 
+locate filename   searches the entire base system by te name
+
+
+in short: 
+pwd    	Shows current location	pwd
+ls	        Lists files in current folder	ls
+ls -la	  Lists everything including hidden files	      ls -la
+cd /path	Go to a folder	                            cd /etc
+cd ..    	Go up one level                               	cd ..
+cd ~	    Go to home folder	                            cd ~
+man       cmd	Open the manual for a command	          man ls
+whoami	  Shows which user you are	                   whoami
+locate    file	Find a file anywhere on the system   	locate nmap
+updatedb	Refresh the locate database                 updatedb
+
