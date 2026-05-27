@@ -1,0 +1,12 @@
+Command	          What it does    	Example
+cat file	         Print entire file to screen	        cat /etc/passwd
+cat > file	      Create a file and type into it	      cat > notes.txt
+grep "word" file	Find lines containing a word	        grep "root" passwd
+grep -i          	Case-insensitive search	              grep -i "admin" log
+head -n 20 file	  First 20 lines	                      head -n 20 file.txt
+tail -n 20 file  	Last 20 lines	                        tail -n 20 file.txt
+tail -f file	    Follow file in real time	            tail -f syslog
+nl file	          Show file with line numbers            nl config.conf
+less file	        Scroll through a file	less             bigfile.txt
+sed 's/a/b/g' file	Replace all "a" with "b"	           sed 's/old/new/g' f
+cmd1 | cmd2       Pipe output of cmd1 into cmd2	         cat log | grep fail
