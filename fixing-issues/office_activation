@@ -1,0 +1,15 @@
+ive encountered office activation problem and since im n iran i cant really actvate throu licenses. 
+so one way is to run the file below as adminstrator. and if it didnt work, run it multiple times and restart your system.
+
+C:\Program Files\Microsoft Office\Office16\OSPPREARM.EXE
+
+
+but why does this works? 
+When you run it (especially as Administrator), it can:
+Reset activation timers
+Rebuild parts of the licensing cache
+Reinitialize the Office Software Protection service
+Clear some corrupted activation state data
+Force Office to re-check licenses on next launch
+
+but keep in mnd that its a temporary method 
